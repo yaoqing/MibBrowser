@@ -1,0 +1,282 @@
+caption.font.size=100
+caption.font.name=Comic Sans MS Bold
+
+menu.font.size=90
+menu.font.name=Arial
+
+menu.file.text=&File
+menu.view.text=&View
+menu.help.text=&Help
+menu.file.exit.text=E&xit
+menu.help.homepage.text=&Homepage ... 
+menu.help.register.text=&Register ... 
+menu.help.buynow.text=&Buy now ... 
+menu.help.about.text=&About ... 
+
+info.font.size=90
+info.font.name=Arial
+
+spy.font.size=90
+spy.font.name=Arial Bold
+
+mib.info.pen.color=8,0,0
+mib.info.line.color=172,168,153
+
+memo.font.size=90
+memo.font.name=Arial Bold
+
+memo.mib.seq.color=8,0,0
+memo.mib.oid.color=8,0,0
+memo.mib.val.color=0,0,128
+memo.mib.type.color=0,128,0
+memo.mib.text.color=128,128,128
+memo.mib.welcome.color=0,0,128
+memo.mib.welcome.text= Welcome to SNMP MibBrowser !
+
+view.frame.color=255,255,255
+view.spy.border.move.corlor=184,204,228
+view.spy.border.click.corlor=184,204,228
+
+view.ip.add.dlg.caption=Add host ... 
+view.ip.add.dlg.color=255,255,255
+view.ip.add.dlg.edit.border.color=49,105,198
+view.ip.add.dlg.font.size=90
+view.ip.add.dlg.font.name=Arial Bold
+view.ip.add.dlg.font.color=8,0,0
+
+view.ip.add.dlg.host.text=host name:
+view.ip.add.dlg.ip.text=ipaddr(*):
+view.ip.add.dlg.port.text=port(*):
+view.ip.add.dlg.community.text=community(*):
+view.ip.add.dlg.description.text=description:
+view.ip.add.dlg.ok.text=&Ok
+view.ip.add.dlg.cancel.text=&Cancel
+
+snmp.community.read=public
+snmp.udp.timeout=6
+snmp.udp.port=161
+snmp.udp.trap.port=162
+snmp.error.text=SNMP not be supported or timeout!
+
+mib.unknow.node=Unknow node %s, load MIB library fail!
+mib.node.exist=node %s has exist, load MIB library fail!
+
+spy.menu.touch.text=&Touch
+spy.menu.walk.text=&Walk
+spy.menu.prompt.text=Prompt For &OID ... 
+spy.menu.delete.text=&Delete
+spy.menu.property.text=Host &Property ... 
+memo.menu.clear.text=&Clear
+view.menu.add.text=&Add host ... 
+
+spy.prompt.dlg.edit.border.color=49,105,198
+spy.prompt.dlg.color=255,255,255
+spy.prompt.dlg.font.size=90
+spy.prompt.dlg.font.name=Arial Bold
+spy.prompt.dlg.font.color=8,0,0
+
+spy.prompt.dlg.ip.text=IP address:
+spy.prompt.dlg.port.text=Port:
+spy.prompt.dlg.community.text=Community:
+spy.prompt.dlg.timeout.text=Timeout(s):
+spy.prompt.dlg.oid.text=Object ID:
+spy.prompt.dlg.reuse.text=&Reuse result
+spy.prompt.dlg.recursive.text=&Recursive
+spy.prompt.dlg.get.text=&Get
+spy.prompt.dlg.getnext.text=Get&Next
+spy.prompt.dlg.close.text=&Close
+
+memo.remote.addr.text=Remote address
+memo.remote.port.text=port
+memo.local.addr.text=Local address
+memo.local.port.text=port
+memo.protocol.type.text=transport
+memo.protocol.version.text=Protocol version
+
+about.dlg.color=255,255,255
+about.dlg.font.name=Arial Bold
+about.dlg.font.size=90
+about.dlg.font.color=8,0,0
+about.dlg.ok.text=&Ok
+about.dlg.version.text=version
+about.dlg.copyright.text=Copyright (C)
+about.dlg.author.text=Author
+about.dlg.caption.text=SNMP MibBrowser
+about.dlg.unregistered.text=Unregistered version
+about.dlg.registered.text=This software is registered to: 
+
+register.dlg.edit.border.color=49,105,198
+register.dlg.color=255,255,255
+register.dlg.font.name=Arial Bold
+register.dlg.font.size=90
+register.dlg.font.color=8,0,0
+register.dlg.ok.text=&Ok
+register.dlg.cancel.text=&Cancel
+register.dlg.caption.text=SNMP MibBrowser
+register.dlg.owner.text=Owner(*): 
+register.dlg.serial.text=Serial(*): 
+register.dlg.organization.text=Organization: 
+register.dlg.thanks.text=Thanks for your register!
+
+ip.addr.error.text=IP wrong!
+port.error.text=Port wrong!
+oid.error.text=OID wrong!
+
+msgbox.font.name=Arial Bold
+msgbox.font.size=90
+msgbox.font.color=8,0,0
+msgbox.color=255,255,255
+msgbox.ok.text=&Ok
+msgbox.caption.text=Maybe exception
+
+property.dlg.color=236,233,216
+property.dlg.font.name=Arial
+property.dlg.font.size=90
+property.dlg.font.color=8,0,0
+property.page.color=240,240,234
+
+property.page.refresh.text=&Refresh
+property.page.sysdesc.caption=System
+property.page.process.caption=Process
+property.page.performance.caption=Performance
+property.page.storage.caption=Storage
+property.page.device.caption=Device
+property.page.soft.caption=Soft
+property.page.interface.caption=Interface
+property.page.tcptable.caption=TcpTable
+property.page.udptable.caption=UDPTable
+property.page.service.caption=Service
+property.page.ipaddr.caption=IPAddr
+property.page.iproute.caption=IPRoute
+property.page.ipmedia.caption=IPMedia
+property.page.ipstat.caption=IPStat
+property.page.icmpstat.caption=ICMPStat
+property.page.tcpstat.caption=TCPStat
+property.page.udpstat.caption=UDPStat
+property.page.snmpstat.caption=SNMPStat
+
+property.page.sysdesc.edit.border.color=49,105,198
+property.page.sysdesc.desc.text=SysDesc:
+property.page.sysdesc.oid.text=SysOID:
+property.page.sysdesc.uptime.text=SysUpTime:
+property.page.sysdesc.contact.text=SysContact:
+property.page.sysdesc.name.text=SysName:
+property.page.sysdesc.location.text=SysLocation:
+property.page.sysdesc.services.text=SysServices:
+
+property.page.process.index.text=PID
+property.page.process.name.text=Name
+property.page.process.id.text=ProductID
+property.page.process.path.text=Path
+property.page.process.parameter.text=Parameter
+property.page.process.type.text=Type
+property.page.process.status.text=Status
+property.page.process.perfcpu.text=CPU(ms)
+property.page.process.perfmem.text=Memory(KB):
+
+property.page.performance.cpu.text=CPU
+property.page.performance.cpu.record.text=CPU Record
+property.page.performance.memory.text=Memory
+property.page.performance.memory.record.text=Memory Record
+
+property.page.storage.index.text=Index
+property.page.storage.type.text=Type
+property.page.storage.descr.text=Description
+property.page.storage.units.text=Units
+property.page.storage.size.text=Size
+property.page.storage.used.text=Used
+property.page.storage.failures.text=Failures
+property.page.storage.percent.text=Percent
+property.page.storage.memsize.text=Memory(MB)
+property.page.storage.edit.border.color=49,105,198
+
+property.page.device.index.text=Index
+property.page.device.type.text=Type
+property.page.device.descr.text=Description
+property.page.device.id.text=ProductID
+property.page.device.status.text=Status
+property.page.device.errors.text=Errors
+
+property.page.soft.index.text=Index
+property.page.soft.name.text=Name
+property.page.soft.id.text=ID
+property.page.soft.type.text=Type
+property.page.soft.date.text=Date
+
+property.page.interface.index.text=Index
+property.page.interface.descr.text=Descr
+property.page.interface.type.text=Type
+property.page.interface.mtu.text=Mtu
+property.page.interface.speed.text=Speed
+property.page.interface.mac.text=PhysAddress
+property.page.interface.adminstatus.text=AdminStatus
+property.page.interface.operstatus.text=OperStatus
+property.page.interface.lastchange.text=LastChange
+property.page.interface.inoctets.text=InOctets
+property.page.interface.inucastpkts.text=InUcastPkts
+property.page.interface.innucastpkts.text=InNUcastPkts
+property.page.interface.indiscards.text=InDiscards
+property.page.interface.inerrors.text=InErrors
+property.page.interface.inunknownprotos.text=InUnknownProtos
+property.page.interface.outoctets.text=OutOctets
+property.page.interface.outucastpkts.text=OutUcastPkts
+property.page.interface.outnucastpkts.text=OutNUcastPkts
+property.page.interface.outdiscards.text=OutDiscards
+property.page.interface.outerrors.text=OutErrors
+property.page.interface.outqlen.text=OutQLen
+property.page.interface.specific.text=Specific
+
+property.page.tcptable.state.text=State
+property.page.tcptable.localaddress.text=LocalAddress
+property.page.tcptable.localport.text=LocalPort
+property.page.tcptable.remoteaddress.text=RemoteAddress
+property.page.tcptable.remoteport.text=RemotePort
+
+property.page.udptable.localaddress.text=LocalAddress
+property.page.udptable.localport.text=LocalPort
+
+property.page.service.name.text=Name
+property.page.service.installedstate.text=InstalledState
+property.page.service.operatingstate.text=OperatingState
+property.page.service.canbeuninstalled.text=CanBeUninstalled
+property.page.service.canbepaused.text=CanBePaused
+
+property.page.ipaddr.addr.text=Addr
+property.page.ipaddr.index.text=Index
+property.page.ipaddr.netmask.text=NetMask
+property.page.ipaddr.broadcastaddr.text=Broadcast
+property.page.ipaddr.maxsize.text=MaxSize
+
+property.page.iproute.dest.text=Dest
+property.page.iproute.index.text=Index
+property.page.iproute.metric1.text=Metric1
+property.page.iproute.metric2.text=metric2
+property.page.iproute.metric3.text=metric3
+property.page.iproute.metric4.text=metric4
+property.page.iproute.nexthop.text=NextHop
+property.page.iproute.type.text=Type
+property.page.iproute.protocol.text=Protocol
+property.page.iproute.age.text=Age
+property.page.iproute.mask.text=Mask
+property.page.iproute.metric5.text=metric5
+property.page.iproute.info.text=Info
+
+property.page.ipmedia.index.text=Index
+property.page.iproute.mac.text=PhysAddress
+property.page.iproute.net.text=NetAddress
+property.page.iproute.type.text=Type
+
+property.page.ipstat.key.text=Index
+property.page.ipstat.value.text=Value
+
+property.page.icmpstat.key.text=Index
+property.page.icmpstat.value.text=Value
+
+property.page.tcpstat.key.text=Index
+property.page.tcpstat.value.text=Value
+
+property.page.udpstat.key.text=Index
+property.page.udpstat.value.text=Value
+
+property.page.snmpstat.key.text=Index
+property.page.snmpstat.value.text=Value

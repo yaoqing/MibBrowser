@@ -1,0 +1,653 @@
+# Microsoft Developer Studio Generated Dependency File, included by MibBrowser.mak
+
+.\AboutWnd.cpp : \
+	".\AboutWnd.h"\
+	".\MibBrowser.h"\
+	".\RegKeyEx.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\AddIpConfWnd.cpp : \
+	".\AddIpConfWnd.h"\
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\base64.cpp : \
+	".\base64.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\BGChartWnd.cpp : \
+	".\BGChartWnd.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ButtonEx.cpp : \
+	".\ButtonEx.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\CaptionBar.cpp : \
+	".\CaptionBar.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ChildFrame.cpp : \
+	".\ChildFrame.h"\
+	".\ChildView.h"\
+	".\MemoWnd.h"\
+	".\MibBrowser.h"\
+	".\MibInfoWnd.h"\
+	".\MibLoader.h"\
+	".\MibTreeWnd.h"\
+	".\PanelWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\SplitterBar.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ChildView.cpp : \
+	".\AddIpConfWnd.h"\
+	".\CaptionBar.h"\
+	".\ChildView.h"\
+	".\EditEx.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MenuEx.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\SpyedWnd.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\CSGuard.cpp : \
+	".\CSGuard.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\DrawCube.cpp : \
+	".\DrawCube.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\EditEx.cpp : \
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\LangLoader.cpp : \
+	".\CSGuard.h"\
+	".\LangLoader.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MacXFrame.cpp : \
+	".\base64.h"\
+	".\CaptionBar.h"\
+	".\LangLoader.h"\
+	".\MacXFrame.h"\
+	".\md5.h"\
+	".\MenuBar.h"\
+	".\MibBrowser.h"\
+	".\RegKeyEx.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\md5.cpp : \
+	".\md5.h"\
+	
+
+.\MemoWnd.cpp : \
+	".\MemoWnd.h"\
+	".\MenuEx.h"\
+	".\MibBrowser.h"\
+	".\MibLoader.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MenuBar.cpp : \
+	".\AboutWnd.h"\
+	".\CaptionBar.h"\
+	".\EditEx.h"\
+	".\LangLoader.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MibBrowser.h"\
+	".\RegisterWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MenuEx.cpp : \
+	".\MenuEx.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MessageWnd.cpp : \
+	".\MessageWnd.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MibBrowser.cpp : \
+	".\CaptionBar.h"\
+	".\ChildFrame.h"\
+	".\LangLoader.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MibBrowser.rc : \
+	".\res\Arrow.bmp"\
+	".\res\computer.bmp"\
+	".\res\Gripe.bmp"\
+	".\res\GripeHot.bmp"\
+	".\res\Leaf.bmp"\
+	".\res\LeafAdd.bmp"\
+	".\res\LeafSub.bmp"\
+	".\res\MenuBar.bmp"\
+	".\res\MibBrowser.exe.Manifest"\
+	".\res\MibBrowser.ico"\
+	".\res\MibBrowser.rc2"\
+	".\res\Pattern1.bmp"\
+	".\res\Pattern2.bmp"\
+	".\res\TitleBar.bmp"\
+	".\res\TitleBox.bmp"\
+	".\res\TitleIco.bmp"\
+	
+
+.\MibInfoWnd.cpp : \
+	".\MibBrowser.h"\
+	".\MibInfoWnd.h"\
+	".\MibLoader.h"\
+	".\MibTreeWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MibLoader.cpp : \
+	".\MibBrowser.h"\
+	".\MibLoader.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MibTreeWnd.cpp : \
+	".\ButtonEx.h"\
+	".\CaptionBar.h"\
+	".\EditEx.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MenuEx.h"\
+	".\MibBrowser.h"\
+	".\MibInfoWnd.h"\
+	".\MibLoader.h"\
+	".\MibTreeWnd.h"\
+	".\PromptWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\NewGuard.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageDevice.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageDevice.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageIcmpStat.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageIcmpStat.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageInterface.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageInterface.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageIpAddr.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageIpAddr.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageIpMedia.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageIpMedia.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageIpRoute.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageIpRoute.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageIpStat.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageIpStat.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PagePerformance.cpp : \
+	".\BGChartWnd.h"\
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PagePerformance.h"\
+	".\PercentCharWnd.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageProc.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageProc.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageService.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageService.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageSnmpStat.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageSnmpStat.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageSoft.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageSoft.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageStorage.cpp : \
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageStorage.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageSystemDesc.cpp : \
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageSystemDesc.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageTcpStat.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageTcpStat.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageTcpTable.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageTcpTable.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageUdpStat.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageUdpStat.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PageUdpTable.cpp : \
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PageUdpTable.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PanelWnd.cpp : \
+	".\MibBrowser.h"\
+	".\PanelWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PercentCharWnd.cpp : \
+	".\MibBrowser.h"\
+	".\PercentCharWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PromptWnd.cpp : \
+	".\ButtonEx.h"\
+	".\EditEx.h"\
+	".\MemoWnd.h"\
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PromptWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\PropertyWnd.cpp : \
+	".\BGChartWnd.h"\
+	".\DrawCube.h"\
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\PageDevice.h"\
+	".\PageIcmpStat.h"\
+	".\PageInterface.h"\
+	".\PageIpAddr.h"\
+	".\PageIpMedia.h"\
+	".\PageIpRoute.h"\
+	".\PageIpStat.h"\
+	".\PagePerformance.h"\
+	".\PageProc.h"\
+	".\PageService.h"\
+	".\PageSnmpStat.h"\
+	".\PageSoft.h"\
+	".\PageStorage.h"\
+	".\PageSystemDesc.h"\
+	".\PageTcpStat.h"\
+	".\PageTcpTable.h"\
+	".\PageUdpStat.h"\
+	".\PageUdpTable.h"\
+	".\PercentCharWnd.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\RegisterWnd.cpp : \
+	".\EditEx.h"\
+	".\MibBrowser.h"\
+	".\RegisterWnd.h"\
+	".\RegKeyEx.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\RegKeyEx.cpp : \
+	".\RegKeyEx.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\snmp.cpp : \
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\snmpdef.cpp : \
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SplitterBar.cpp : \
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\SplitterBar.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SpyedWnd.cpp : \
+	".\ButtonEx.h"\
+	".\CaptionBar.h"\
+	".\ChildView.h"\
+	".\EditEx.h"\
+	".\MacXFrame.h"\
+	".\MemoWnd.h"\
+	".\MenuBar.h"\
+	".\MenuEx.h"\
+	".\MibBrowser.h"\
+	".\NewGuard.h"\
+	".\PromptWnd.h"\
+	".\PropertyWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\SpyedWnd.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StdAfx.cpp : \
+	".\CaptionBar.h"\
+	".\LangLoader.h"\
+	".\MacXFrame.h"\
+	".\MenuBar.h"\
+	".\MessageWnd.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StringEx.cpp : \
+	".\MibBrowser.h"\
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringEx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StringToken.cpp : \
+	".\snmp.h"\
+	".\snmpdef.h"\
+	".\StdAfx.h"\
+	".\StringToken.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

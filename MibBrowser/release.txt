@@ -1,0 +1,9 @@
+Pease MibBrowser
+http://www.pease-soft.com/download/mibbrowser.zip
+http://www.pease-soft.com
+http://www.pease-soft.com/img/mibbrowser.png
+http://shareware.skycn.com/soft/11057.htm
+admin@pease-soft.com
+
+一个支持SNMP协议的MIB信息浏览器，以图表的形式显示设备的运行情况
+类MacX界面，支持SNMP协议，暂时只支持SNMPv1，无功能限制。多语言支持(中文及英文)

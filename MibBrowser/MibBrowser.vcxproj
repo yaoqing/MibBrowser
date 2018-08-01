@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>MibBrowser</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{EAE6A617-6DEA-48DC-A626-F38E15D2F3BF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\MibBrowser.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\MibBrowser.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\MibBrowser.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\MibBrowser.exe</OutputFile>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\MibBrowser.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\MibBrowser.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\MibBrowser.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\MibBrowser.exe</OutputFile>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutWnd.cpp" />
+    <ClCompile Include="AddIpConfWnd.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="BGChartWnd.cpp" />
+    <ClCompile Include="ButtonEx.cpp" />
+    <ClCompile Include="CaptionBar.cpp" />
+    <ClCompile Include="ChildFrame.cpp" />
+    <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="CSGuard.cpp" />
+    <ClCompile Include="DrawCube.cpp" />
+    <ClCompile Include="EditEx.cpp" />
+    <ClCompile Include="LangLoader.cpp" />
+    <ClCompile Include="MacXFrame.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="MemoWnd.cpp" />
+    <ClCompile Include="MenuBar.cpp" />
+    <ClCompile Include="MenuEx.cpp" />
+    <ClCompile Include="MessageWnd.cpp" />
+    <ClCompile Include="MibBrowser.cpp" />
+    <ClCompile Include="MibInfoWnd.cpp" />
+    <ClCompile Include="MibLoader.cpp" />
+    <ClCompile Include="MibTreeWnd.cpp" />
+    <ClCompile Include="NewGuard.cpp" />
+    <ClCompile Include="PageDevice.cpp" />
+    <ClCompile Include="PageIcmpStat.cpp" />
+    <ClCompile Include="PageInterface.cpp" />
+    <ClCompile Include="PageIpAddr.cpp" />
+    <ClCompile Include="PageIpMedia.cpp" />
+    <ClCompile Include="PageIpRoute.cpp" />
+    <ClCompile Include="PageIpStat.cpp" />
+    <ClCompile Include="PagePerformance.cpp" />
+    <ClCompile Include="PageProc.cpp" />
+    <ClCompile Include="PageService.cpp" />
+    <ClCompile Include="PageSnmpStat.cpp" />
+    <ClCompile Include="PageSoft.cpp" />
+    <ClCompile Include="PageStorage.cpp" />
+    <ClCompile Include="PageSystemDesc.cpp" />
+    <ClCompile Include="PageTcpStat.cpp" />
+    <ClCompile Include="PageTcpTable.cpp" />
+    <ClCompile Include="PageUdpStat.cpp" />
+    <ClCompile Include="PageUdpTable.cpp" />
+    <ClCompile Include="PanelWnd.cpp" />
+    <ClCompile Include="PercentCharWnd.cpp" />
+    <ClCompile Include="PromptWnd.cpp" />
+    <ClCompile Include="PropertyWnd.cpp" />
+    <ClCompile Include="RegisterWnd.cpp" />
+    <ClCompile Include="RegKeyEx.cpp" />
+    <ClCompile Include="snmp.cpp" />
+    <ClCompile Include="snmpdef.cpp" />
+    <ClCompile Include="SplitterBar.cpp" />
+    <ClCompile Include="SpyedWnd.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="StringEx.cpp" />
+    <ClCompile Include="StringToken.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MibBrowser.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutWnd.h" />
+    <ClInclude Include="AddIpConfWnd.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="BGChartWnd.h" />
+    <ClInclude Include="ButtonEx.h" />
+    <ClInclude Include="CaptionBar.h" />
+    <ClInclude Include="ChildFrame.h" />
+    <ClInclude Include="ChildView.h" />
+    <ClInclude Include="CSGuard.h" />
+    <ClInclude Include="DrawCube.h" />
+    <ClInclude Include="EditEx.h" />
+    <ClInclude Include="LangLoader.h" />
+    <ClInclude Include="MacXFrame.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="MemoWnd.h" />
+    <ClInclude Include="MenuBar.h" />
+    <ClInclude Include="MenuEx.h" />
+    <ClInclude Include="MessageWnd.h" />
+    <ClInclude Include="MibBrowser.h" />
+    <ClInclude Include="MibInfoWnd.h" />
+    <ClInclude Include="MibLoader.h" />
+    <ClInclude Include="MibTreeWnd.h" />
+    <ClInclude Include="NewGuard.h" />
+    <ClInclude Include="PageDevice.h" />
+    <ClInclude Include="PageIcmpStat.h" />
+    <ClInclude Include="PageInterface.h" />
+    <ClInclude Include="PageIpAddr.h" />
+    <ClInclude Include="PageIpMedia.h" />
+    <ClInclude Include="PageIpRoute.h" />
+    <ClInclude Include="PageIpStat.h" />
+    <ClInclude Include="PagePerformance.h" />
+    <ClInclude Include="PageProc.h" />
+    <ClInclude Include="PageService.h" />
+    <ClInclude Include="PageSnmpStat.h" />
+    <ClInclude Include="PageSoft.h" />
+    <ClInclude Include="PageStorage.h" />
+    <ClInclude Include="PageSystemDesc.h" />
+    <ClInclude Include="PageTcpStat.h" />
+    <ClInclude Include="PageTcpTable.h" />
+    <ClInclude Include="PageUdpStat.h" />
+    <ClInclude Include="PageUdpTable.h" />
+    <ClInclude Include="PanelWnd.h" />
+    <ClInclude Include="PercentCharWnd.h" />
+    <ClInclude Include="PromptWnd.h" />
+    <ClInclude Include="PropertyWnd.h" />
+    <ClInclude Include="RegisterWnd.h" />
+    <ClInclude Include="RegKeyEx.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="snmp.h" />
+    <ClInclude Include="snmpdef.h" />
+    <ClInclude Include="SplitterBar.h" />
+    <ClInclude Include="SpyedWnd.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="StringEx.h" />
+    <ClInclude Include="StringToken.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Arrow.bmp" />
+    <Image Include="res\computer.bmp" />
+    <Image Include="res\Gripe.bmp" />
+    <Image Include="res\GripeHot.bmp" />
+    <Image Include="res\Leaf.bmp" />
+    <Image Include="res\LeafAdd.bmp" />
+    <Image Include="res\LeafSub.bmp" />
+    <Image Include="res\MenuBar.bmp" />
+    <Image Include="res\MenuHot.bmp" />
+    <Image Include="res\MibBrowser.ico" />
+    <Image Include="res\Pattern1.bmp" />
+    <Image Include="res\Pattern2.bmp" />
+    <Image Include="res\TitleBar.bmp" />
+    <Image Include="res\TitleBox.bmp" />
+    <Image Include="res\TitleIco.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\MibBrowser.exe.Manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\MibBrowser.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
